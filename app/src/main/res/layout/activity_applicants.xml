@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hacker.myapplication.applicants">
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="590dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="#08AE9E"
+            android:paddingLeft="150dp"
+            android:paddingTop="20dp"
+            android:text="Applicants"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="@android:color/background_light">
+
+        </SearchView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="663dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="86dp"
+                        android:layout_height="88dp"
+                        app:srcCompat="@drawable/nav" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/textView151"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Navjot Singh"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView161"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Student of Electronics Engineering from" />
+
+                        <TextView
+                            android:id="@+id/textView172"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="3dp"
+                            android:text="cegep de la gaspesie" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_weight="40.57"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp">
+
+                            <ImageView
+                                android:id="@+id/imageView753"
+                                android:layout_width="44dp"
+                                android:layout_height="24dp"
+                                app:srcCompat="@drawable/location" />
+
+                            <TextView
+                                android:id="@+id/textView183"
+                                android:layout_width="wrap_content"
+                                android:layout_height="41dp"
+                                android:layout_weight="1"
+                                android:paddingTop="4dp"
+                                android:text="Dasuya , India" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="3dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp">
+
+                    <Button
+                        android:id="@+id/button212"
+                        android:layout_width="78dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Resume"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView241"
+                        android:layout_width="37dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/button24"
+                        android:layout_width="68dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Contact"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView141"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="                     Saturday       2pm" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/background_dark"
+                    android:textSize="2sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView85"
+                        android:layout_width="86dp"
+                        android:layout_height="88dp"
+                        app:srcCompat="@drawable/rajat" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView125"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Rajat Choudhary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView156"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Student of Electronics Engineering from" />
+
+                        <TextView
+                            android:id="@+id/textView147"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="3dp"
+                            android:text="cegep de la gaspesie" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp">
+
+                            <ImageView
+                                android:id="@+id/imageView73"
+                                android:layout_width="44dp"
+                                android:layout_height="24dp"
+                                app:srcCompat="@drawable/location" />
+
+                            <TextView
+                                android:id="@+id/textView178"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingTop="4dp"
+                                android:text="Dasuya , India" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="3dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp">
+
+                    <Button
+                        android:id="@+id/button27"
+                        android:layout_width="78dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Resume"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView261"
+                        android:layout_width="37dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/button87"
+                        android:layout_width="68dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Contact"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView181"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="                      sunday       8pm" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/background_dark"
+                    android:textSize="2sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView448"
+                        android:layout_width="86dp"
+                        android:layout_height="88dp"
+                        app:srcCompat="@drawable/par" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView1995"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Parminderpal Singh"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Student of robotics Engeenering from " />
+
+                        <TextView
+                            android:id="@+id/textView417"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="3dp"
+                            android:text="cegep de la gaspesie" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp">
+
+                            <ImageView
+                                android:id="@+id/imageView72"
+                                android:layout_width="44dp"
+                                android:layout_height="24dp"
+                                app:srcCompat="@drawable/location" />
+
+                            <TextView
+                                android:id="@+id/textView418"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingTop="4dp"
+                                android:text="Gurdaspur,India" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp">
+
+                    <Button
+                        android:id="@+id/button442"
+                        android:layout_width="78dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Resume"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2221"
+                        android:layout_width="37dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/button44"
+                        android:layout_width="68dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Contact"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1421"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="                       Friday         10pm" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/background_dark"
+                    android:textSize="2sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="86dp"
+                        android:layout_height="88dp"
+                        app:srcCompat="@drawable/taj" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Tajinderpal Singh"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Student of IP Adressing" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="3dp"
+                            android:text="cegep de la gaspesie" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="44dp"
+                                android:layout_height="24dp"
+                                app:srcCompat="@drawable/location" />
+
+                            <TextView
+                                android:id="@+id/textView18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingTop="4dp"
+                                android:text="Batala,India" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="78dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Resume"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="37dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="68dp"
+                        android:layout_height="21dp"
+                        android:background="#08AE9E"
+                        android:text="Contact"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="                       Friday         10pm" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

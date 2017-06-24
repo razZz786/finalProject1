@@ -24,7 +24,13 @@
         <activity android:name=".applynow" />
         <activity android:name=".startupscreen" />
         <activity android:name=".SCREENDIVIDE" />
-        <activity android:name=".companyhome"></activity>
+        <activity android:name=".companyhome" />
+        <activity android:name=".location" />
+        <activity android:name=".namesearch" />
+        <activity android:name=".cgpa" />
+        <activity android:name=".applicants" />
+        <activity android:name=".settingcomp" />
+        <activity android:name=".studentprofile"></activity>
     </application>
 
 </manifest>
