@@ -5,22 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.hacker.myapplication.applicants">
+
     <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="590dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="370dp"
+        android:layout_height="600dp"
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteY="-1dp">
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/textView2"
@@ -47,7 +43,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="663dp"
+            android:layout_height="386dp"
+            android:layout_weight="0.32"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="8dp">
 
@@ -60,7 +57,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
-                    android:paddingTop="5dp">
+                    android:paddingTop="5dp"
+                    android:weightSum="1">
 
                     <ImageView
                         android:id="@+id/imageView11"
@@ -70,7 +68,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_weight="1"
                         android:orientation="vertical"
                         android:weightSum="1">
 
@@ -99,9 +98,8 @@
                             android:text="cegep de la gaspesie" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="20dp"
-                            android:layout_weight="40.57"
+                            android:layout_width="313dp"
+                            android:layout_height="match_parent"
                             android:orientation="horizontal"
                             android:paddingTop="3dp">
 
@@ -182,8 +180,9 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
+                        android:layout_height="103dp"
+                        android:orientation="vertical"
+                        android:weightSum="1">
 
                         <TextView
                             android:id="@+id/textView125"
@@ -210,7 +209,7 @@
                             android:text="cegep de la gaspesie" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="313dp"
                             android:layout_height="match_parent"
                             android:orientation="horizontal"
                             android:paddingTop="3dp">
@@ -247,7 +246,8 @@
                         android:layout_height="21dp"
                         android:background="#08AE9E"
                         android:text="Resume"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:onClick="two"/>
 
                     <TextView
                         android:id="@+id/textView261"
@@ -291,7 +291,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="108dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -319,8 +319,8 @@
                             android:text="cegep de la gaspesie" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_width="313dp"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:paddingTop="3dp">
 
@@ -401,7 +401,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="103dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -430,7 +430,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="52dp"
                             android:orientation="horizontal"
                             android:paddingTop="3dp">
 
