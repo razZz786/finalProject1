@@ -9,28 +9,64 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".studentlogin" />
+        <activity
+            android:name=".signup"
+            android:exported="true" />
+        <activity
+            android:name=".companyLogin"
+            android:exported="true" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="true" />
+        <activity
+            android:name=".companyprofile"
+            android:exported="true" />
+        <activity
+            android:name=".resume"
+            android:exported="true" />
+        <activity
+            android:name=".applynow"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SCREENDIVIDE"
+            android:exported="true" />
+        <activity
+            android:name=".location"
+            android:exported="true" />
+        <activity
+            android:name=".namesearch"
+            android:exported="true" />
+        <activity
+            android:name=".cgpa"
+            android:exported="true" />
+        <activity
+            android:name=".applicants"
+            android:exported="true" />
+        <activity
+            android:name=".settingcomp"
+            android:exported="true" />
+        <activity
+            android:name=".studentprofile"
+            android:exported="true" />
+        <activity
+            android:name=".comapanyhome"
+            android:label="@string/title_activity_comapanyhome"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".signup" />
-        <activity android:name=".companyLogin" />
-        <activity android:name=".forgotpassword" />
-        <activity android:name=".companyprofile" />
-        <activity android:name=".resume" />
-        <activity android:name=".applynow" />
-        <activity android:name=".startupscreen" />
-        <activity android:name=".SCREENDIVIDE" />
-        <activity android:name=".companyhome" />
-        <activity android:name=".location" />
-        <activity android:name=".namesearch" />
-        <activity android:name=".cgpa" />
-        <activity android:name=".applicants" />
-        <activity android:name=".settingcomp" />
-        <activity android:name=".studentprofile"></activity>
+        <activity android:name=".navjotprofile" />
+        <activity android:name=".parminderprofile" />
+        <activity android:name=".rajbirprofile" />
+        <activity android:name=".studentid" />
+        <activity android:name=".searchbycourse"></activity>
     </application>
 
 </manifest>

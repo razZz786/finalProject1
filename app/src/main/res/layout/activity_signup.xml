@@ -8,8 +8,8 @@
     tools:context="com.example.hacker.myapplication.signup">
 
     <LinearLayout
-        android:layout_width="374dp"
-        android:layout_height="468dp"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintTop_toTopOf="parent"
@@ -21,7 +21,7 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="0.843">
+        app:layout_constraintVertical_bias="0.851">
 
         <TextView
             android:id="@+id/textView3"
@@ -104,19 +104,20 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="match_parent"
+            android:layout_width="398dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.54"
+            android:layout_weight="0.15"
+            android:paddingLeft="230dp"
             android:text="have an account ?"
-            android:textAlignment="textEnd"
             android:textSize="14sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="clogin"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.11"
+            android:layout_weight="0.13"
             android:background="@color/colorPrimary"
             android:text="Sign up" />
 

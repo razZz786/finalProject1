@@ -5,26 +5,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class companyLogin extends AppCompatActivity {
+public class studentlogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_company_login);
+        setContentView(R.layout.studentlogin);
     }
     public void next (View view)
-    {
-        Intent intent=new Intent(this,comapanyhome.class);
-        startActivity(intent);
-    }
-    public void one (View view)
     {
         Intent intent=new Intent(this,forgotpassword.class);
         startActivity(intent);
     }
-    public void signup (View view)
+    public void frgpass (View view)
     {
-        Intent intent=new Intent(this,signup.class);
+        Intent intent=new Intent(this,forgotpassword.class);
         startActivity(intent);
     }
 

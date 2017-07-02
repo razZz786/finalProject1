@@ -1,6 +1,7 @@
 package com.example.hacker.myapplication;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class comapanyhome extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -83,39 +85,61 @@ public class comapanyhome extends AppCompatActivity
         int id = item.getItemId();
         android.app.FragmentManager fragmentManager = getFragmentManager();
 
-        if (id ==R.id.nav_name) {
-            fragmentManager.beginTransaction()
+        if (id == R.id.nav_name) {
+            /*fragmentManager.beginTransaction()
                     .replace(R.id.content_frame
                             , new FirstFragment())
                     .commit();
+                    */
 
-        }else if (id ==R.id.nav_studentid) {
-            fragmentManager.beginTransaction()
+
+            Intent i = new Intent(comapanyhome.this, namesearch.class);
+            startActivity(i);
+
+        } else if (id == R.id.nav_studentid) {
+            /*fragmentManager.beginTransaction()
                     .replace(R.id.content_frame
                             , new SecondFragment())
-                    .commit();
-        }else if (id ==R.id.nav_cgpa) {
-            fragmentManager.beginTransaction()
+                    .commit();*/
+            Intent i = new Intent(comapanyhome.this, studentid.class);
+            startActivity(i);
+        } else if (id == R.id.nav_cgpa) {
+            /*fragmentManager.beginTransaction()
                     .replace(R.id.content_frame
                             , new ThirdFragment())
-                    .commit();
-        }
-
-        if (id == R.id.nav_name) {
-            // Handle the camera action
-        } else if (id == R.id.nav_studentid) {
-
-        } else if (id == R.id.nav_cgpa) {
-
-
+                    .commit();*/
+            Intent i = new Intent(comapanyhome.this, cgpa.class);
+            startActivity(i);
         } else if (id == R.id.nav_share) {
-
+            /*fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new ThirdFragment())
+                    .commit();*/
+            Intent i = new Intent(comapanyhome.this, searchbycourse.class);
+            startActivity(i);
         } else if (id == R.id.nav_send) {
-
+            /*fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new ThirdFragment())
+                    .commit();*/
+            Intent i = new Intent(comapanyhome.this, companyLogin.class);
+            startActivity(i);
         }
+            if (id == R.id.nav_name) {
+                // Handle the camera action
+            } else if (id == R.id.nav_studentid) {
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+            } else if (id == R.id.nav_cgpa) {
+
+
+            } else if (id == R.id.nav_share) {
+
+            } else if (id == R.id.nav_send) {
+
+            }
+
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            drawer.closeDrawer(GravityCompat.START);
+            return true;
+        }
     }
-}

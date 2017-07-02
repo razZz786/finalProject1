@@ -46,7 +46,6 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="Look for it..."
-            android:textAlignment="textEnd"
             android:textColor="@color/common_google_signin_btn_text_light_pressed"
             android:textSize="18sp"
             android:textStyle="bold"
