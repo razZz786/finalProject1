@@ -4,16 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
-    tools:context="com.example.hacker.myapplication.SCREENDIVIDE">
+    tools:context="com.example.hacker.myapplication.divide"
+    android:background="@drawable/back">
 
     <LinearLayout
         android:layout_width="368dp"
         android:layout_height="495dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp">
 
         <TextView
             android:id="@+id/textView24"
@@ -64,7 +70,7 @@
             android:text="I am a student   >"
             android:textColor="@android:color/black"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/textView26"
@@ -76,6 +82,7 @@
             android:text="I am a employer   >"
             android:textColor="@android:color/black"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="comp"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

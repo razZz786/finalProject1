@@ -4,15 +4,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_name"
-            android:icon="@drawable/ic_menu_camera"
+
             android:title="Name" />
         <item
             android:id="@+id/nav_studentid"
-            android:icon="@drawable/ic_menu_gallery"
+
             android:title="Student ID" />
         <item
             android:id="@+id/nav_cgpa"
-            android:icon="@drawable/ic_menu_slideshow"
+
             android:title="C.G.P.A" />
     </group>
 
@@ -20,7 +20,7 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
+
                 android:title="Search by course" />
             <item
                 android:id="@+id/nav_send"

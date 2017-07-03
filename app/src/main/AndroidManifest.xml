@@ -30,10 +30,13 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".SCREENDIVIDE"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".location"
             android:exported="true" />
@@ -55,18 +58,13 @@
         <activity
             android:name=".comapanyhome"
             android:label="@string/title_activity_comapanyhome"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".navjotprofile" />
         <activity android:name=".parminderprofile" />
         <activity android:name=".rajbirprofile" />
         <activity android:name=".studentid" />
-        <activity android:name=".searchbycourse"></activity>
+        <activity android:name=".searchbycourse" />
+        <activity android:name=".divide"></activity>
     </application>
 
 </manifest>

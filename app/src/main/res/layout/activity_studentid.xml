@@ -17,18 +17,20 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent">
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:weightSum="1">
 
         <TextView
             android:id="@+id/textView37"
             android:layout_width="match_parent"
-            android:layout_height="69dp"
+            android:layout_height="wrap_content"
             android:background="#08AE9E"
             android:paddingLeft="150dp"
             android:paddingTop="20dp"
             android:text="Student_ID"
             android:textColor="@android:color/background_light"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:layout_weight="0.03" />
 
         <TextView
             android:id="@+id/textView44"
