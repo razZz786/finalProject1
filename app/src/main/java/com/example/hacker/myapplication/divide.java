@@ -17,4 +17,9 @@ public class divide extends AppCompatActivity {
         Intent intent=new Intent(this,companyLogin.class);
         startActivity(intent);
     }
+    public void student (View view)
+    {
+        Intent intent=new Intent(this,studentlogins.class);
+        startActivity(intent);
+    }
 }

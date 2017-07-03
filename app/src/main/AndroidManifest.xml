@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".studentlogin" />
         <activity
             android:name=".signup"
             android:exported="true" />
@@ -38,9 +37,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".location"
-            android:exported="true" />
-        <activity
             android:name=".namesearch"
             android:exported="true" />
         <activity
@@ -64,7 +60,16 @@
         <activity android:name=".rajbirprofile" />
         <activity android:name=".studentid" />
         <activity android:name=".searchbycourse" />
-        <activity android:name=".divide"></activity>
+        <activity android:name=".divide" />
+        <activity
+            android:name=".studenthome"
+            android:label="@string/title_activity_studenthome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".location" />
+        <activity android:name=".minduration" />
+        <activity android:name=".searchbycompany" />
+        <activity android:name=".searchbyfield" />
+        <activity android:name=".studentlogins"></activity>
     </application>
 
 </manifest>

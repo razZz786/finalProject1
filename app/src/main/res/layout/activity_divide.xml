@@ -70,7 +70,8 @@
             android:text="I am a student   >"
             android:textColor="@android:color/black"
             android:textSize="24sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:onClick="student"/>
 
         <TextView
             android:id="@+id/textView26"

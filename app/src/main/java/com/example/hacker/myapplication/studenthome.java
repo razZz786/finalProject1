@@ -1,11 +1,9 @@
 package com.example.hacker.myapplication;
 
-import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,15 +13,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
-public class comapanyhome extends AppCompatActivity
+public class studenthome extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comapanyhome);
+        setContentView(R.layout.activity_studenthome);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -59,7 +56,7 @@ public class comapanyhome extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.comapanyhome, menu);
+        getMenuInflater().inflate(R.menu.studenthome, menu);
         return true;
     }
 
@@ -83,63 +80,43 @@ public class comapanyhome extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        android.app.FragmentManager fragmentManager = getFragmentManager();
-
-        if (id == R.id.nav_name) {
-            /*fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new FirstFragment())
-                    .commit();
-                    */
 
 
-            Intent i = new Intent(comapanyhome.this, namesearch.class);
+        if (id == R.id.nav_camera) {
+
+            Intent i = new Intent(studenthome.this, location.class);
             startActivity(i);
 
-        } else if (id == R.id.nav_studentid) {
-            /*fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new SecondFragment())
-                    .commit();*/
-            Intent i = new Intent(comapanyhome.this, studentid.class);
+        } else if (id == R.id.nav_gallery) {
+            Intent i = new Intent(studenthome.this, minduration.class);
             startActivity(i);
-        } else if (id == R.id.nav_cgpa) {
-            /*fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new ThirdFragment())
-                    .commit();*/
-            Intent i = new Intent(comapanyhome.this, cgpa.class);
+
+        } else if (id == R.id.nav_manage) {
+
+            Intent i = new Intent(studenthome.this, searchbycompany.class);
             startActivity(i);
-        } else if (id == R.id.nav_searchbycourse) {
-            /*fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new ThirdFragment())
-                    .commit();*/
-            Intent i = new Intent(comapanyhome.this, searchbycourse.class);
+        } else if (id == R.id.nav_share) {
+            Intent i = new Intent(studenthome.this, searchbyfield.class);
             startActivity(i);
-        } else if (id == R.id.nav_signout) {
-            /*fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new ThirdFragment())
-                    .commit();*/
-            Intent i = new Intent(comapanyhome.this, companyLogin.class);
+        } else if (id == R.id.nav_send) {
+            Intent i = new Intent(studenthome.this, studentlogins.class);
             startActivity(i);
         }
-            if (id == R.id.nav_name) {
-                // Handle the camera action
-            } else if (id == R.id.nav_studentid) {
 
-            } else if (id == R.id.nav_cgpa) {
+        if (id == R.id.nav_camera) {
+            // Handle the camera action
+        } else if (id == R.id.nav_gallery) {
 
+        } else if (id == R.id.nav_manage) {
 
-            } else if (id == R.id.nav_searchbycourse) {
+        } else if (id == R.id.nav_share) {
 
-            } else if (id == R.id.nav_signout) {
+        } else if (id == R.id.nav_send) {
 
-            }
-
-            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-            drawer.closeDrawer(GravityCompat.START);
-            return true;
         }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
+}
