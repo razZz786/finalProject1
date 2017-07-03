@@ -45,6 +45,11 @@ public class comapanyhome extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+    public void profile (View view)
+    {
+        Intent intent=new Intent(this,applicants.class);
+        startActivity(intent);
+    }
 
     @Override
     public void onBackPressed() {
