@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hacker.myapplication.settingstudent">
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="584dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:background="#08AE9E"
+            android:paddingLeft="150dp"
+            android:paddingTop="20dp"
+            android:text="Settings"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:background="@android:color/background_light"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Profile"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.60"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="Privacy"
+                android:textSize="22sp" />
+
+            <Switch
+                android:id="@+id/switch141"
+                android:layout_width="191dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.60"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="Notifications"
+                android:textSize="22sp" />
+
+            <Switch
+                android:id="@+id/switch11"
+                android:layout_width="191dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.10" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.02"
+            android:background="@android:color/background_light"
+            android:paddingLeft="15dp"
+            android:text="Use Languages"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2234"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.65"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="English"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView524"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.65"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="French"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.65"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="Hindi"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.60"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="Privacy"
+                android:textSize="22sp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="191dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.10" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/background_light"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="About Us"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.10"
+            android:background="@android:color/background_light"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="Services"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
