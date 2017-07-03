@@ -19,7 +19,7 @@ public class companyLogin extends AppCompatActivity {
     }
     public void one (View view)
     {
-        Intent intent=new Intent(this,forgotpassword.class);
+        Intent intent=new Intent(this,forgetpassemail.class);
         startActivity(intent);
     }
     public void signup (View view)

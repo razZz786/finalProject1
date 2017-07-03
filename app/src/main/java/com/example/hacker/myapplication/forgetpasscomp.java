@@ -5,16 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class settingcomp extends AppCompatActivity {
+public class forgetpasscomp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settingcomp);
+        setContentView(R.layout.activity_forgetpasscomp);
     }
-    public void cprofile (View view)
+    public void chome (View view)
     {
-        Intent intent=new Intent(this,companyprofile.class);
+        Intent intent=new Intent(this,comapanyhome.class);
         startActivity(intent);
     }
 }

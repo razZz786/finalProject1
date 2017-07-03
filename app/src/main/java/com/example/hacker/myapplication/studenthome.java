@@ -69,6 +69,9 @@ public class studenthome extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            Intent i = new Intent(studenthome.this, settingstudent.class);
+            startActivity(i);
             return true;
         }
 

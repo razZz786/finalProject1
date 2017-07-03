@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".signup"
             android:exported="true" />
@@ -69,7 +69,11 @@
         <activity android:name=".minduration" />
         <activity android:name=".searchbycompany" />
         <activity android:name=".searchbyfield" />
-        <activity android:name=".studentlogins"></activity>
+        <activity android:name=".studentlogins" />
+        <activity android:name=".settingstudent" />
+        <activity android:name=".profilestudent" />
+        <activity android:name=".forgetpasscomp" />
+        <activity android:name=".forgetpassemail"></activity>
     </application>
 
 </manifest>

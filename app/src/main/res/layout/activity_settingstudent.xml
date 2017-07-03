@@ -34,7 +34,7 @@
             android:text="Settings"
             android:textSize="24sp" />
 
-        <TextView
+         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,8 @@
             android:paddingLeft="15dp"
             android:paddingTop="15dp"
             android:text="Profile"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            android:onClick="sprofile"/>
 
         <LinearLayout
             android:layout_width="match_parent"

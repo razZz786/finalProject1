@@ -27,10 +27,10 @@
             android:id="@+id/textView14"
             android:layout_width="411dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.02"
+            android:layout_weight="0.13"
             android:background="#08AE9E"
             android:paddingLeft="150dp"
-            android:paddingTop="20dp"
+            android:paddingTop="15dp"
             android:text="Settings"
             android:textSize="24sp" />
 
@@ -43,7 +43,8 @@
             android:paddingLeft="15dp"
             android:paddingTop="15dp"
             android:text="Profile"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            android:onClick="cprofile"/>
 
         <LinearLayout
             android:layout_width="match_parent"

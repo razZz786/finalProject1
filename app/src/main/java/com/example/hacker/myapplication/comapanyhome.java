@@ -63,6 +63,7 @@ public class comapanyhome extends AppCompatActivity
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -72,6 +73,10 @@ public class comapanyhome extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            Intent i = new Intent(comapanyhome.this, settingcomp.class);
+            startActivity(i);
+
             return true;
         }
 
@@ -142,4 +147,5 @@ public class comapanyhome extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
             return true;
         }
+
     }
